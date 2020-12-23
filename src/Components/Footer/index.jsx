@@ -31,6 +31,8 @@ const Footer = () => {
           </DowloadApp>
         </Fade>
 
+
+
         <Link
           to={{
             pathname: links.GITHUB,

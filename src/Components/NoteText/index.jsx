@@ -38,4 +38,7 @@ const NoteText = () => {
   );
 };
 
+
+{/* component solo que pode ser importado para qaulquer lado*/ }
+
 export default NoteText;

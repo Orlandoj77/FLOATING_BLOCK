@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { BasicDescription, BasicTitle } from "../Intro/style";
-
+import "./index.css";
 import {
   Container,
   LineColor,
@@ -50,11 +50,11 @@ const Newslatter = () => {
 
         <ContainerForm>
           <Fade right>
-            <Form>
+            <Form className="form">
               <InputName placeholder="Nome"></InputName>
               <InputEmail placeholder="Email"></InputEmail>
 
-              <SubmitButton onClick={onSumbit}>Subscrever</SubmitButton>
+              <Link to="/register"> <SubmitButton > Subscrever</SubmitButton> </Link>
             </Form>
           </Fade>
         </ContainerForm>

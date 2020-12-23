@@ -1,0 +1,58 @@
+/*trabalhando a responsividade do container*/ 
+
+
+
+
+@media screen and (max-width: 997px){
+    .form{
+    width:23em;
+    margin-Left:5em;
+    }
+}
+
+@media screen and (max-width: 879px){
+    .form{
+        width:22em;
+        margin-Left:4em;
+        }
+}
+
+@media screen and (max-width: 849px){
+    .form{
+        width:22em;
+        margin-Left:3em;
+        margin-Top:3em;
+        }
+}
+
+@media screen and (max-width: 823px){
+    .form{
+        width:22em;
+        margin-Left:2em;
+        margin-Top:3em;
+        }
+}
+
+@media screen and (max-width: 805px){
+    .form{
+        height:27em;
+        width:20em;
+        margin-Left:1em;
+        margin-Top:3em;
+        }
+    
+}
+
+@media screen and (max-width: 717px){
+    
+}
+
+@media screen and (max-width: 635px){
+   
+}
+
+
+@media screen and (max-width: 553px){
+   
+
+}

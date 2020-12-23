@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../../../Components/Header";
 import landing from "../../../Assets/Avatar.png";
+import "./index.css";
 import {
   Container,
   Informations,
@@ -23,7 +24,7 @@ export default function Home() {
       <Main>
         <Header />
         <Content>
-          <Informations>
+          <Informations className="informatioClass">
             <Fade right>
               <Title>Floanting block</Title>
               <Description>
@@ -31,14 +32,14 @@ export default function Home() {
               </Description>
 
               <Link to="/register">
-                <ButtonCreateAccount>Comece criando agora</ButtonCreateAccount>
+                <ButtonCreateAccount className="ButtonCreat">Comece criando agora</ButtonCreateAccount>
               </Link>
 
               <BasicTitle>
                 Partilhe com as pessoas certas <br /> as suas anotações.
               </BasicTitle>
 
-              <BasicDescription>
+              <BasicDescription className="Descriptio">
                 No recurso “categoria”, você pode criar o seu grupo de
                 colaboradores e compartilhar publicamente com os participantes
                 do seu grupo e eles te ajudarão a melhoras as suas ideias.
@@ -48,9 +49,9 @@ export default function Home() {
 
           {/* <ImageSide> */}
           <Fade left>
-            <Image src={landing} />
+            <Image className="img1" src={landing} />
           </Fade>
-          {/* </ImageSide> */}
+
         </Content>
       </Main>
     </Container>

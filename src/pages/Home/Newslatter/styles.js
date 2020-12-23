@@ -100,20 +100,23 @@ export const InputEmail = styled.input`
   &:focus {
     width: 70%;
   }
+
+  
+
 `;
 export const SubmitButton = styled.button`
   background: transparent;
   border: 1px solid #0dff7c;
   outline: none;
   border-radius: 20px;
-  width: 40%;
-  height: 8%;
+  width: 250%;
+  height: 60%;
   transition: 0.9s;
   font-family: Ubuntu;
   font-weight: bold;
   color: #fff;
   margin-top: 40px;
-
+  margin-left:-2em;
   &:hover {
     background: #0dff7c;
     cursor: pointer;

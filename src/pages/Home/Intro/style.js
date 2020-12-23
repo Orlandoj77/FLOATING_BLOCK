@@ -9,7 +9,23 @@ export const Container = styled.div`
   top: 0;
   left: 0;
   background: linear-gradient(255.69deg, #0dff7c -75.44%, #000000 100%);
+
+
+
+  &:@media scree and (max-width: 966px){
+    Color: #d33 !important;
+    font-size:20px !important ;
+  }
+
+
 `;
+
+//trabalhando a responsividade do container 
+
+
+
+
+
 
 export const Informations = styled.div`
   height: 60%;

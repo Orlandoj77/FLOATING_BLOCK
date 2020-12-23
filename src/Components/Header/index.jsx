@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../Assets/Logo.png";
+import Logo from "../../Assets/Logo.png"
 import {
   Container,
   Wrapper,
@@ -15,7 +15,7 @@ function Header() {
   return (
     <Container>
       <Wrapper>
-        <Image src={Logo} />
+        <img src={Logo} />
         <ButtonContainer>
           <ButtonRegister to="/register"> Cadastrar-se </ButtonRegister>
           <LoginButton to="/login">Entrar</LoginButton>

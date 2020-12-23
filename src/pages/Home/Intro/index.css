@@ -1,0 +1,69 @@
+/*trabalhando a responsividade do container*/ 
+
+
+
+
+@media screen and (max-width: 997px){
+    .img1{
+        height: 23em;
+
+    }
+}
+
+@media screen and (max-width: 879px){
+    .img1{
+        height: 20em;
+
+    }
+}
+
+@media screen and (max-width: 877px){
+    .img1{
+        height: 20em;
+
+    }
+}
+
+@media screen and (max-width: 856px){
+    .img1{
+        height: 17em;
+
+    }
+}
+
+@media screen and (max-width: 837px){
+    .img1{
+        height: 17em;
+
+    }
+}
+
+@media screen and (max-width: 717px){
+    .img1{
+        height: 16em;
+
+    }
+}
+
+@media screen and (max-width: 635px){
+    .img1{
+        height: 14em;
+
+    }
+}
+
+
+@media screen and (max-width: 553px){
+    .img1{
+        height: 12em;
+        align-items: center;
+        margin-top: -6em;
+    
+    }
+
+    .ButtonCreat{
+        padding: 5px;
+    }
+
+}
+
