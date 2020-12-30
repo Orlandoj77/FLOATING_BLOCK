@@ -33,7 +33,7 @@ const Newslatter = () => {
             </TitleNewslatter>
 
             <BasicTitle style={{ marginTop: "35px" }}>
-              Partilhe com as pessoas certas <br /> as suas anotações.
+              Partilhe com  as pessoas certas <br /> as suas anotações.
             </BasicTitle>
 
             <BasicDescription>

@@ -8,6 +8,8 @@ import {
   ButtonContainer,
   LoginButton,
 } from "./style";
+import { Link } from "react-router-dom";
+
 
 // import { Container } from './styles';
 
@@ -15,7 +17,7 @@ function Header() {
   return (
     <Container>
       <Wrapper>
-        <img src={Logo} />
+      <Link to="../../Home/Intro/index.jsx">  <img src={Logo} /> </Link>
         <ButtonContainer>
           <ButtonRegister to="/register"> Cadastrar-se </ButtonRegister>
           <LoginButton to="/login">Entrar</LoginButton>

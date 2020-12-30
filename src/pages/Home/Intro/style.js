@@ -10,17 +10,13 @@ export const Container = styled.div`
   left: 0;
   background: linear-gradient(255.69deg, #0dff7c -75.44%, #000000 100%);
 
-
-
-  &:@media scree and (max-width: 966px){
-    Color: #d33 !important;
-    font-size:20px !important ;
+  @media screen and (max-width:360px){
+  
   }
-
-
+  
 `;
 
-//trabalhando a responsividade do container 
+
 
 
 
@@ -39,6 +35,11 @@ export const Title = styled.h1`
   color: #0dff7c;
   font-family: Ubuntu;
   margin-left: 133px;
+
+  @media screen and (max-width:360px){
+  justify-item:center;
+  display:flex;
+  }
 `;
 
 // export const ImageSide = styled.div`
@@ -107,8 +108,17 @@ export const ButtonCreateAccount = styled.button`
     cursor: pointer;
     outline: none;
   }
+  @media screen and (max-width:360px){
+  hight:100%;
+  width:100%;
+  }
 `;
 
 export const Image = styled.img`
   height: 470px;
+
+  @media screen and (max-width:360px){
+    display:none;
+  
+  }
 `;

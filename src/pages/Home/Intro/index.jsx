@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../../../Components/Header";
 import landing from "../../../Assets/Avatar.png";
-import "./index.css";
+
 import {
   Container,
   Informations,
