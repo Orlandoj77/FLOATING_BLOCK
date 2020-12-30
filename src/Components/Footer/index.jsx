@@ -65,7 +65,9 @@ const Footer = () => {
           <Instagram size={24} className="icon_search" />
         </Link>
         <DowloadApp>
-          <span style={{ marginLeft: 50 }}> Baixe o App</span>{" "}
+          <Link to="/development" style={{ textDecoration: "none", color: "black" }}>
+            <span to="./" style={{ marginLeft: 50 }}> Baixe o App </span>{" "}
+          </Link>
           <FiArrowDownCircle
             size={24}
             style={{ color: "#fff", marginRight: 50 }}

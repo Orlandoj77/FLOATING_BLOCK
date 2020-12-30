@@ -17,7 +17,7 @@ function Header() {
   return (
     <Container>
       <Wrapper>
-      <Link to="../../Home/Intro/index.jsx">  <img src={Logo} /> </Link>
+        <Link to="./">  <img src={Logo} /> </Link>
         <ButtonContainer>
           <ButtonRegister to="/register"> Cadastrar-se </ButtonRegister>
           <LoginButton to="/login">Entrar</LoginButton>
