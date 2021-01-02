@@ -13,6 +13,7 @@ import {
   DownloadApp,
 } from "./styles";
 
+
 const HeaherCommon = ({
   title,
   showInputSearch,
@@ -35,9 +36,12 @@ const HeaherCommon = ({
           </ContainerBack>
 
           <ContainerSomething>
-            {showDownloadButton && <DownloadApp>Baixar o App</DownloadApp>}
+            <Link to="/development">
+              {showDownloadButton && <DownloadApp>Baixar o App</DownloadApp>}
+            </Link>
             {showInputSearch && <InputSearch placeholder="Pesquisar" />}
-            <Image src={Logo} />
+            <Link to="/">
+              <Image src={Logo} /></Link>
           </ContainerSomething>
         </Wrapper>
       </Container>

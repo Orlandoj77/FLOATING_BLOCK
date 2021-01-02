@@ -42,7 +42,7 @@ const Newslatter = () => {
               seu grupo e eles te ajudarão a melhoras as suas ideias.
             </BasicDescription>
 
-            <Link to="/register">
+            <Link to="/development">
               <ButtonAboutUs>Sobre nós</ButtonAboutUs>
             </Link>
           </Fade>

@@ -1,6 +1,6 @@
 import React from "react";
 import HeaherCommon from "../../Components/HeaherCommon";
-import Footer from "../../Components/Footer";
+
 
 import { Container, Content } from "./styles";
 
@@ -118,11 +118,10 @@ const UseTerms = () => {
             color: "#000",
             lineHeight: 1.3,
           }}>
-          Floatingblock7@gmail.com <br /> Telefone: +24490-903-0800 <br /> Fixo:
+          Floatingblock7@gmail.com <br /> Telefone: +244933530651 <br /> Fixo:
           650-903-0875
         </p>
       </Content>
-      <Footer />
     </Container>
   );
 };
