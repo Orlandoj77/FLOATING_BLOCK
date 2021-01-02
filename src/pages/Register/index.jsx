@@ -13,6 +13,7 @@ import {
 } from "./style";
 import imgRegister from "../../Assets/Register/register.png";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 // import { InputEmail, InputName } from "../Home/Newslatter/styles";
 
@@ -41,8 +42,9 @@ export default function Register() {
             <InputPassword
               type="password"
               placeholder="Palavra Passe"></InputPassword>
-            <RegisterButton>Entrar</RegisterButton>
-
+            <Link to="my-notes">
+              <RegisterButton>Entrar</RegisterButton>
+            </Link>
             <p style={{ marginTop: 60, fontFamily: "Ubuntu" }}>
               Já tem uma conta? <RedirectLogin to="/login">Login</RedirectLogin>
             </p>
