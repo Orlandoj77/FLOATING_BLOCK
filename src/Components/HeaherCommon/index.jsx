@@ -41,7 +41,8 @@ const HeaherCommon = ({
             </Link>
             {showInputSearch && <InputSearch placeholder="Pesquisar" />}
             <Link to="/">
-              <Image src={Logo} /></Link>
+              <Image src={Logo} />
+              </Link>
           </ContainerSomething>
         </Wrapper>
       </Container>

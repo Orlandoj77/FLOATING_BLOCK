@@ -16,6 +16,7 @@ export const Container = styled.div`
     rgba(0, 0, 0, 0.35) 93.7%
   );
   /* background: #fff; */
+  
 `;
 
 export const LineColor = styled.div`
@@ -48,10 +49,16 @@ export const Main = styled.div`
   display: flex;
   justify-content: space-between;
   padding-bottom: 50px;
+   @media(min-width:360px){
+  flex-direction: column;
+  display:flex;
+  }
 `;
 
 export const ContainerNewslatter = styled.div`
   margin-top: 100px;
+ 
+ 
 `;
 
 export const ContainerForm = styled.div`

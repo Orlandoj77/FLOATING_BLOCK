@@ -49,7 +49,7 @@ export default function Login() {
             </Link>
 
             <p style={{ marginTop: 60, fontFamily: "Ubuntu" }}>
-              Não tem uma conta?{" "}
+              Não tem uma conta?{""}
               <RedirectLogin to="/register">Regista-te</RedirectLogin>
             </p>
           </Form>

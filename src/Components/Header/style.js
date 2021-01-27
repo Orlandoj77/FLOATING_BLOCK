@@ -1,23 +1,22 @@
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+
+`;
 
 export const Wrapper = styled.div`
   border-bottom: 1px solid #0dff7c;
-
   padding-bottom: 10px;
-
   width: 100%;
-
   padding-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   justify-items: center;
   flex: 1;
-
   margin: 0 auto;
+
 `;
 export const Image = styled.img`
   height: 40px;
