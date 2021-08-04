@@ -3,7 +3,6 @@ import Logo from "../../Assets/Logo.png"
 import {
   Container,
   Wrapper,
-  Image,
   ButtonRegister,
   ButtonContainer,
   LoginButton,
